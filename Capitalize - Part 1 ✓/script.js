@@ -3,7 +3,7 @@
 const input = "bUrIm";
 
 //First Letter Big
-let firstLetterSelect = input.charAt(0, 1);
+let firstLetterSelect = input.charAt(0);
 let secondLetterPlusSelect = input.substring(1).toLowerCase();
 let firstLetterBig = firstLetterSelect.toUpperCase();
 

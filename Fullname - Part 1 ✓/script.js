@@ -14,11 +14,11 @@ let middle = fullName.substring(middleName + 1, lastName);
 let firstName = fullName.lastIndexOf(" ");
 let first = fullName.substring(0, middleName);
 
-function PoliteName(first, middle, last) {
+function PoliteName(last, first, middle) {
   if (middle) {
-    console.log(`Mr ${last} aka ${first} ${middle}`);
+    console.log(`Mr ${first} aka ${middle} ${last}`);
   } else {
-    console.log(`Mr ${last} aka ${first}`);
+    console.log(`Mr ${first} aka ${last}`);
   }
 }
 
