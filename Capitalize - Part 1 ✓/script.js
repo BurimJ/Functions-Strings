@@ -3,11 +3,10 @@
 const input = "bUrIm";
 
 //First Letter Big
-let firstLetterSelect = input.charAt(0);
+let firstLetterSelect = input.charAt(0).toUpperCase();
 let secondLetterPlusSelect = input.substring(1).toLowerCase();
-let firstLetterBig = firstLetterSelect.toUpperCase();
 
-console.log(firstLetterBig + secondLetterPlusSelect);
+console.log(firstLetterSelect + secondLetterPlusSelect);
 
 /*
 3caPitalization - below here
